@@ -8,14 +8,15 @@ This dataset contains information about subscriptions to economics journals. It 
 
 The dataset includes the following information:
 
-- `subscriber_id`: Unique identifier for each subscriber.
-- `journal_id`: Unique identifier for each journal.
-- `subscription_type`: Type of subscription (e.g., individual, institutional).
-- `start_date`: Start date of the subscription.
-- `end_date`: End date of the subscription.
-- `payment_status`: Payment status (e.g., paid, pending, cancelled).
-- `amount_paid`: Amount paid for the subscription.
-- `currency`: Currency in which the payment was made.
+- title: journal title
+- publisher: publisher name
+- society: is the journal published by a scholarly society?
+- price: library subscriptioin price
+- pages: number of pages
+- charpp: characters per page
+- foundingyear: year journal was founded
+- subs: number of library subscriptions
+- field: field description
 
 ## Programming Language Used
 
