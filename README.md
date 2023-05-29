@@ -1,1 +1,1 @@
-# Economic-Journal
+# Economic Journal Subscription
