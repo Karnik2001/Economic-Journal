@@ -1,0 +1,288 @@
+CREATE TABLE mytable(
+   FIELD1       VARCHAR(8) NOT NULL PRIMARY KEY
+  ,title        VARCHAR(55) NOT NULL
+  ,publisher    VARCHAR(27) NOT NULL
+  ,society      VARCHAR(3) NOT NULL
+  ,price        INTEGER  NOT NULL
+  ,pages        INTEGER  NOT NULL
+  ,charpp       INTEGER  NOT NULL
+  ,citations    INTEGER  NOT NULL
+  ,foundingyear INTEGER  NOT NULL
+  ,subs         INTEGER  NOT NULL
+  ,field        VARCHAR(23) NOT NULL
+);
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('APEL','Asian-Pacific Economic Literature','Blackwell','no',123,440,3822,21,1986,14,'General');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('SAJoEH','South African Journal of Economic History','So Afr ec history assn','no',20,309,1782,22,1986,59,'Economic History');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('CE','Computational Economics','Kluwer','no',443,567,2924,22,1987,17,'Specialized');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('MEPiTE','MOCT-MOST Economic Policy in Transitional Economics','Kluwer','no',276,520,3234,22,1991,2,'Area Studies');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('JoSE','Journal of Socio-Economics','Elsevier','no',295,791,3024,24,1972,96,'Interdisciplinary');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('LabEc','Labour Economics','Elsevier','no',344,609,2967,24,1994,15,'Labor');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('EDE','Environment and Development Economics','Cambridge Univ Pres','no',90,602,3185,24,1995,14,'Development');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('RoRPE','Review of Radical Political Economics','Elsevier','no',242,665,2688,27,1968,202,'Specialized');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('EoP','Economics of Planning','Kluwer','no',226,243,3010,28,1987,46,'Area Studies');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('Mt','Metroeconomica','Blackwell','no',262,386,2501,30,1949,46,'General');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('JoCP','Journal of Consumer Policy','Kluwer','no',279,578,2200,32,1978,57,'Consumer Economics');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('REE','Real Estate Economics','MIT','no',165,749,2496,35,1973,125,'Specialized');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('DPR','Development Policy Review','Blackwell','no',242,427,2731,36,1982,30,'Development');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('MaDE','Managerial and Decision Econ','Wiley','no',905,292,4472,37,1980,62,'Management Science');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('JoEF','Journal of Empirical Finance','Elsevier','no',355,607,3053,37,1994,16,'Finance');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('JoEMS','International Journal of Finance & Economics','Springer','no',375,351,4025,40,1996,17,'Finance');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('JoE&MS','Journal of Economics & Management Strategy','MIT Press','no',135,602,2394,42,1992,37,'Management Science');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('AEJ','Atlantic Economic Journal','Intnl Atlantic Ec. Soc.','no',171,447,3139,44,1972,148,'General');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('EDQ','Economic Development Quarterly','Sage','no',284,385,3318,47,1987,110,'Development');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('CER','China Economic Review','Elsevier','no',242,167,3619,47,1989,16,'Area Studies');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('IEP','Information Economics and Policy','Elsevier','no',371,442,2924,50,1984,30,'Specialized');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('AEP','Australian Economic Papers','Blackwell','no',115,495,3792,51,1961,61,'General');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('JWE','Japan and the World Economy','Elsevier','no',355,577,3443,56,1988,27,'Area Studies');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('JoES','Journal of Economic Surveys','Blackwell','no',355,674,2835,61,1987,45,'General');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('IME','Insurance  Mathematics & Economics','Elsevier','no',835,745,4263,61,1982,15,'Insurance');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('DE','De Economist','Kluwer','no',223,579,2594,62,1852,25,'General');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('RoSE','Review of Social Economy','Routledge','no',172,578,2720,66,1943,203,'General');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('BP','Brookings Papers','Brookings Inst.','no',62,394,2368,67,1970,646,'Public Finance');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('PiRS','Papers in Regional Science','Springer','no',191,442,2925,68,1922,59,'Urban and Regional');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('JoPE','Journal of Population Economics','Springer','no',411,640,3264,69,1987,27,'Demography');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('FS','Finance and Stochastics','Springer','no',274,492,3060,69,1996,31,'Finance');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('IO','International Organization','MIT','no',130,814,3024,69,1947,532,'Industrial Organization');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('CPP','Canadian Public Policy','University of Toronto Press','no',100,714,2248,75,1975,52,'Public Finance');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('DvE','Developing Economies','Inst of Devel Econ','no',80,539,3345,76,1963,87,'Development');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('JoHoEc','Journal of Housing Economics','Academic Press','no',235,330,2623,78,1982,27,'Specialized');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('JoEB','Journal of Economics & Business','Elsevier','no',392,563,3456,80,1948,291,'Business');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('JoEvEc','Journal of Evolutionary Economics','Springer','no',410,526,2989,81,1991,9,'Specialized');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('EmpEc','Empirical Economics','Springer','no',464,719,3366,82,1976,24,'General');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('ER','Econometric Reviews','Dekker','no',650,448,2418,85,1981,49,'Econometrics');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('AgE','Agricultural Economics','Elsevier','no',558,610,4032,87,1986,24,'Agricultural Economics');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('QRoEF','Quarterly Review of Economics & Finance','Elsevier','no',317,931,3036,87,1961,323,'Finance');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('AEL','Applied Economics Letters','Routledge','no',495,774,5610,89,1994,69,'General');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('EM','Economic Modelling','Elsevier','no',535,632,2880,89,1983,21,'General');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('GC','Growth and Change','Blackwell','no',123,302,2772,97,1969,212,'Development');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('ERE','Environmental and Resource Economics','Kluwer','no',717,1061,2924,97,1992,14,'Natural Resources');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('JoRE','Journal of Regulatory Economics','Kluwer','no',481,628,3666,98,1991,38,'Industrial Organization');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('BoIES','Bulletin of Indonesian Economic Studies','ANU Press','no',54,518,2858,98,1964,22,'Specialized');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('AoRS','Annals of Regional Science','Springer','no',379,580,2914,100,1967,77,'Urban and Regional');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('CEP','Contemporary Economic Policy','Oxford Univ Press','no',168,566,4104,109,1982,290,'Public Finance');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('JoEcEd','Journal of Economic Education','Heldref','no',82,426,2990,112,1970,386,'Specialized');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('JoJIE','Journal of the Japanese & International Economies','Academic Press','no',355,451,2541,119,1986,50,'Area Studies');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('EaP','Economics and Philosophy','Cambridge Univ Pres','no',95,373,2574,121,1984,144,'Interdisciplinary');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('JoFI','Journal of Financial Intermediation','Academic Press','no',240,420,2773,121,1991,48,'Finance');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('RaEE','Resource and Energy Economics','Elsevier','no',448,416,3010,122,1978,33,'Natural Resources');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('ORoEP','Oxford Review of Economic Policy','Oxford Univ Press','no',255,600,4284,124,1985,29,'Public Finance');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('RoIO','Review of Industrial Organization','Kluwer','no',448,792,1820,126,1990,58,'Industrial Organization');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('IRoLE','International Review of Law & Economics','Elsevier','no',392,585,3479,126,1980,71,'Law and Economics');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('JoWT','Journal of World Trade','Kluwer','no',475,1138,3088,134,1967,135,'International');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('JoM','Journal of Macroeconomics','LSU Press','no',85,856,2562,137,1979,183,'Macroeconomics');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('AJoES','American Journal of Economics & Sociology','Blackwell','no',108,578,2331,138,1941,573,'Interdisciplinary');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('PFR','Public Finance Review','Sage','no',394,636,2204,138,1973,268,'Public Finance');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('MnchSc','Manchester School','Blackwell','no',336,618,2772,140,1930,57,'General');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('EnE','Energy Economics','Elsevier','no',565,495,3038,143,1978,52,'Natural Resources');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('ERoAE','European Review of Agricultural Economics','Oxford Univ Press','no',255,573,3228,144,1974,21,'Agricultural Economics');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('LH','Labor History','Carfax','no',165,515,3430,147,1960,479,'Labor');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('WA','Weltwirtschaftliches Archiv / Review of World Economics','Mohr Siebeck','no',99,758,2499,150,1865,77,'General');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('SJoPE','Scottish Journal of Political Economy','Blackwell','no',203,596,3036,151,1953,89,'General');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('DC','Development and Change','Blackwell','no',318,888,2623,154,1970,83,'Development');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('JoREFE','Journal of Real Estate Finance and Economics','Kluwer','no',476,630,3432,162,1990,59,'Business');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('JoPopEc','Journal of Policy Modeling','Elsevier','no',473,907,2160,164,1979,67,'Specialized');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('JoPKE','Journal of Post-Keynesian Economics','M.E Sharpe','no',186,550,2360,170,1978,225,'General');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('EP','Economic Policy','Blackwell','no',170,440,2856,179,1985,56,'Public Finance');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('MSS','Mathematical Social Sciences','Elsevier','no',824,697,3420,180,1981,36,'Interdisciplinary');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('Om','Omega','Elsevier','no',805,780,4028,183,1973,101,'Business');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('HoPE','History of Political Economy','Duke Univ Press','no',132,767,2280,183,1969,288,'Economic History');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('EcRec','Economic Record','Ec. Society of Australia','yes',50,421,4320,188,1925,183,'General');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('JoPA','Journal of Productivity Analysis','Kluwer','no',424,567,3432,188,1992,25,'General');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('RoIW','Review of Income and Wealth','Int Assn for Res in I & W','yes',130,585,3312,189,1945,120,'Public Finance');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('JoRI','Journal of Risk and Insurance','Am. Risk & Ins. Assn','yes',90,720,2924,193,1964,263,'Insurance');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('TWE','The World Economy','Blackwell','no',805,1270,2842,214,1977,101,'Development');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('JoAE','Journal of Agricultural Economics','Agric. Econ. Society','yes',96,277,4218,220,1948,43,'Agricultural Economics');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('EoER','Economics of Education Review','Elsevier','no',448,471,5040,224,1982,73,'Specialized');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('JoLR','Journal of Labor Research','George Mason Univ','no',130,725,3010,227,1980,221,'Labor');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('TD','Theory and Decision','Kluwer','no',595,607,2072,237,1970,83,'Theory');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('SCW','Social Choice & Welfare','Springer','no',474,674,2990,239,1984,37,'Public Finance');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('JoCE','Journal of Comparative Economics','Academic Press','no',410,803,2442,245,1977,185,'Area Studies');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('JoEP','Journal of Economic Psychology','Elsevier','no',395,802,2535,245,1981,61,'Interdisciplinary');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('IJoF','International Journal of Forecasting','Elsevier','no',437,464,4324,249,1985,57,'Specialized');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('Ky','Kyklos','Helbing & Lichtenhahn','no',270,618,2760,254,1948,186,'General');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('EiEH','Explorations in Economic History','Academic Press','no',265,447,2904,261,1963,199,'Economic History');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('ET','Economic Theory','Springer','no',899,1493,2806,264,1992,165,'Theory');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('JoTEP','Journal of Transport Economics & Policy','LSE and Univ of Bath','no',133,406,3182,292,1967,95,'Specialized');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('BJoIR','British Journal of Industrial Relations','Blackwell','no',262,663,3450,294,1963,82,'Specialized');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('JoCMS','Journal of Common Market Studies','Blackwell','no',506,710,2747,299,1962,214,'Area Studies');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('JoFM','Journal of Futures Markets','Wiley','no',1140,990,2460,302,1981,152,'Finance');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('JITE','Journal of Institutional & Theoretical Economics','Mohr Siebeck','no',211,792,3402,313,1844,33,'General');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('IJoIO','International Journal of Industrial Organization','Elsevier','no',799,1230,3124,313,1983,81,'Industrial Organization');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('JoFo','Journal of Forecasting','Wiley','no',760,516,4032,317,1982,137,'Specialized');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('ORL','Operations Research Letters','Elsevier','no',442,460,4056,338,1982,59,'Management Science');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('SJoE','Scandinavian Journal of Economics','Blackwell','no',296,688,2666,339,1898,98,'General');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('CJoE','Cambridge Journal of Economics','Oxford Univ Press','no',272,814,3545,351,1976,163,'General');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('JoEI','Journal of Economic Issues','Assn Ev. Economics','yes',45,1003,2870,355,1967,462,'Public Finance');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('RSUE','Regional Science & Urban Economics','Elsevier','no',614,802,2967,370,1971,99,'Urban and Regional');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('IJoGT','International Journal of Game Theory','Springer','no',436,582,3366,382,1971,52,'Theory');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('JoRaU','Journal of Risk and Uncertainty','Kluwer','no',481,595,3476,383,1990,47,'Insurance');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('JoRU','Journal of Financial and Quantitative Analysis','Univ Wash Press','no',95,500,3314,388,1966,394,'Finance');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('JoDS','Journal of Development Studies','Frank Cass','no',357,500,2604,388,1964,227,'Development');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('EcmtrT','Econometric Theory','Cambridge Univ Pres','no',280,899,2948,390,1985,65,'Econometrics');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('JoRS','Journal of Regional Science','Blackwell','no',142,764,2992,397,1961,242,'Urban and Regional');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('JoA&E','Journal of Accounting & Economics','Elsevier','no',710,1112,2945,406,1979,154,'Interdisciplinary');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('GaEB','Games and Economic Behavior','Academic Press','no',490,1197,2460,412,1988,45,'Theory');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('JAE','Journal of Applied Econometrics','Wiley','no',870,689,3680,412,1986,81,'Econometrics');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('JoMathEc','Journal of Mathematical Economics','Elsevier','no',1147,1340,2940,418,1974,79,'Theory');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('JoIMF','Journal of International Money and Finance','Elsevier','no',743,940,2660,427,1981,120,'International');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('RS','Regional Studies','Carfax','no',759,911,4988,440,1967,91,'Urban and Regional');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('PDR','Population & Development Review','Population Council','no',36,910,2904,445,1975,218,'Demography');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('ES','Economy and Society','Routledge','no',224,640,2970,488,1971,97,'General');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('DS','Decision Sciences','Georgia State Univ','no',82,1067,3124,495,1970,322,'Management Science');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('JoIndEc','Journal of Industrial Economics','Blackwell','no',160,476,2684,497,1953,283,'Industrial Organization');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('EE','Ecological Economics','Elsevier','no',1170,1990,4128,499,1989,40,'Natural Resources');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('NTJ','National Tax Journal','National Tax Assn.','no',90,785,2940,502,1948,552,'Public Finance');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('US','Urban Studies','Carfax','no',742,1711,3747,508,1964,222,'Urban and Regional');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('HE','Health Economics','Wiley','no',575,736,4264,544,1992,29,'Health');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('EHR','Economic History Review','Blackwell','no',163,846,3570,545,1947,390,'Economic History');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('RoFS','Review of Financial Studies','Oxford Univ. Press','no',175,1235,2604,547,1988,95,'Finance');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('CJE','Canadian Journal of Economics','Blackwell','yes',120,1247,2992,556,1967,305,'General');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('RA','Risk Analysis','Kluwer','no',590,1260,4628,574,1981,98,'Insurance');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('AE','Applied Economics','Routledge','no',2120,1683,5445,578,1958,146,'General');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('OEP','Oxford Economic Papers','Oxford Univ. Press','no',205,767,2924,582,1949,271,'General');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('EDCC','Economic Development & Cultural Change','Univ of Chicago Press','no',128,889,2700,597,1952,515,'Development');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('JoBF','Journal of Banking and Finance','Elsevier','no',1539,1911,2516,602,1977,172,'Finance');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('OBoES','Oxford Bulletin of Economics & Statistics','Blackwell','no',346,545,2655,617,1939,127,'General');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('JoEDC','Journal of Economic Dynamics & Control','Elsevier','yes',1046,1636,2945,636,1979,58,'Theory');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('SEJ','Southern Economic Journal','Southern Econ. Assn','yes',97,1032,3680,646,1932,524,'General');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('JoMS','Journal of Management Studies','Blackwell','no',686,850,3456,654,1964,222,'Management Science');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('JoBE','Journal of Business Ethics','Kluwer','no',914,1270,3650,662,1981,385,'Business');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('Dm','Demography','Pop Assn America','no',85,568,6859,670,1964,413,'Demography');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('EI','Economic Inquiry','Oxford Univ Press','no',206,684,4134,684,1962,366,'General');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('JoEBO','Journal of Economic Behavior & Organization','Elsevier','no',1154,1380,3330,698,1980,75,'Theory');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('JoLS','Journal of Legal Studies','Univ of Chicago Press','no',45,530,2625,700,1972,238,'Law and Economics');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('JoDE','Journal of Development Economics','Elsevier','no',1146,1110,2816,707,1974,142,'Development');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('LanEc','Land Economics','Univ of Wisconsin Press','no',95,580,3672,730,1925,437,'Urban and Regional');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('JoLE','Journal of Labor Economics','Univ of Chicago Press','no',138,600,2728,733,1983,269,'Labor');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('JoEH','Journal of Economic History','Cambridge Univ Pres','no',115,1200,4029,737,1941,643,'Economic History');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('JoUE','Journal of Urban Economics','Academic Press','no',640,1058,2666,787,1974,230,'Urban and Regional');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('Ecnmc','Economica','Blackwell','no',122,565,3120,825,1933,313,'General');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('JoMCB','Journal of Money Credit & Banking','Ohio State Univ. Press','no',110,860,3168,834,1969,512,'Macroeconomics');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('JoIntEc','Journal of International Economics','Elsevier','no',923,1299,2898,838,1971,211,'International');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('PC','Public Choice','Kluwer','no',1000,1600,2583,871,1966,171,'Public Finance');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('RP','Research Policy','Elsevier','no',1234,781,4320,922,1972,34,'Business');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('EL','Economics Letters','Elsevier','no',1492,1540,3315,930,1978,81,'General');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('JoHeEc','Journal of Health Economics','Elsevier','no',810,828,2924,957,1982,144,'Health');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('JBES','Journal of Business & Economic Statistics','Am Stat Assn','yes',90,510,6360,988,1983,190,'Business');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('RJoE','Rand Journal of Economics','RAND','no',177,757,3450,1039,1970,339,'Industrial Organization');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('JoB','Journal of Business','Univ of Chicago Press','no',74,583,2655,1083,1928,771,'Business');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('JoHR','Journal of Human Resources','Univ of Wisconsin Press','no',113,837,3312,1113,1966,522,'Labor');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('IER','International Economic Review','Blackwell','no',145,969,3082,1113,1960,284,'General');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('JoEEM','Journal of Environmental Economics & Managment','Academic Press','no',590,636,3096,1152,1974,202,'Natural Resources');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('EER','European Economic Review','Elsevier','yes',1154,1823,2178,1243,1969,118,'General');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('WD','World Development','Elsevier','no',1450,1145,5480,1408,1973,160,'Development');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('JoPubEc','Journal of Public Economics','Elsevier','no',1431,1880,2924,1437,1972,141,'Public Finance');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('JEL','Journal of Economic Literature','Am Ec Assn','yes',47,2632,3848,1530,1963,972,'General');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('JoLaE','Journal of Law and Economics','Univ of Chicago Press','no',45,850,2604,1580,1968,542,'Law and Economics');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('JEP','Journal of Economic Perspectives','Am Ec Assn','yes',47,940,3036,1583,1987,866,'General');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('AJoAE','American Journal of Agricultural Economics','Am. Ag. Econ Assn','no',81,1253,4368,1812,1918,267,'Agricultural Economics');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('JoMonEc','Journal of Monetary Economics','Elsevier','no',1010,1346,3174,1860,1975,186,'Macroeconomics');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('MngtSc','Management Science','Inst for OR and MS','no',334,1175,4232,2022,1954,558,'Management Science');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('RoE&S','Review of Economics & Statistics','MIT press','no',190,733,5600,2331,1919,523,'General');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('RoES','Review of Economic Studies','Blackwell','no',180,761,3626,2411,1933,325,'General');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('JoE','Journal of Econometrics','Elsevier','no',1893,1527,2178,2479,1973,129,'Econometrics');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('JoET','Journal of Economic Theory','Academic Press','no',1400,2000,2684,2514,1969,165,'Theory');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('EJ','Economic Journal','Blackwell','no',301,1983,3036,2540,1890,531,'General');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('JoFE','Journal of Financial Economics','Elsevier','no',1339,1947,2838,2676,1974,231,'Finance');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('JoCR','Journal of Consumer Research','Univ of Chicago Press','no',90,439,5336,2762,1974,536,'Consumer Economics');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('JASA','Journal of the American Statistical Association','Am. Statistical Assn','yes',310,1260,5664,2800,1971,487,'Econometrics');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('JoFi','Journal of Finance','Am. Finance Assn','yes',226,2272,3036,3791,1945,799,'Finance');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('QJoE','Quarterly Journal of Economics','MIT press','no',148,1467,2184,4138,1886,660,'General');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('JoPolEc','Journal of Political Economy','Univ of Chicago Press','no',159,1669,2640,6697,1892,737,'General');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('Ecnmt','Econometrica','Blackwell','yes',178,1482,2992,7943,1932,346,'General');
+INSERT INTO mytable(FIELD1,title,publisher,society,price,pages,charpp,citations,foundingyear,subs,field) VALUES ('AER','American Economic Review','Am Ec Assn','yes',47,1867,3900,8999,1911,1098,'General');
+
+/* What are the different fields/columns available in the dataset? */
+
+SELECT * FROM mytable;
+
+/* How many records/entries are there in the dataset? */
+
+SELECT COUNT(*)
+FROM mytable;
+
+/* What are the distinct journal titles available in the dataset? */
+
+SELECT DISTINCT title
+FROM mytable;
+
+/* How many subscriptions were made for each journal title? */
+
+SELECT title, SUM(subs)
+FROM mytable
+GROUP BY title;
+
+/* What is the average subscription price across all journals? */
+
+SELECT AVG(price)
+FROM mytable;
+
+/* Which journal has the highest subscription price? What is the price? */
+
+SELECT MAX(price)
+FROM mytable;
+
+/* Which journal has the lowest subscription price? What is the price? */
+
+SELECT MIN(price)
+FROM mytable;
+
+/* How many subscriptions were made in each year? */
+
+SELECT COUNT(subs),foundingyear
+FROM mytable
+GROUP BY foundingyear;
+
+/* What is the total revenue generated from all subscriptions? */
+
+SELECT SUM(subs*price) AS total_revenue
+FROM mytable;
+
+/* How many subscriptions were made by each institution? */
+
+SELECT publisher,COUNT(subs) 
+FROM mytable
+GROUP BY publisher;
+
+/* How many journals have a subscription price below a certain value? */
+
+SELECT title,subs,price
+FROM mytable
+WHERE price < 500;
+
+/* What are the top 5 publishers with the highest number of journals? */
+
+SELECT publisher, COUNT(*) AS journal_count
+FROM mytable
+GROUP BY publisher
+ORDER BY journal_count DESC
+LIMIT 5;
+
+/* Count the number of unique journals in the table.*/
+
+SELECT COUNT(DISTINCT title) AS unique_journals_count
+FROM mytable;
+
+/* Calculate the average subscription price from the table.*/
+
+SELECT AVG(price) AS average_subscription_price
+FROM mytable;
+
+/* Retrieve all the records from the "journals" table in alphabetical order of journal names. */
+
+SELECT title
+FROM mytable
+ORDER BY title ASC;
+
+/* Retrieve the top 5 most expensive subscriptions from the table. */
+
+SELECT subs, price
+FROM mytable
+ORDER BY price DESC
+LIMIT 5;
+
+/* Count the number of subscriptions for each year in the table. */
+
+SELECT foundingyear, COUNT(*) AS subs_year
+FROM mytable
+GROUP BY foundingyear;
